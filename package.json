@@ -1,0 +1,19 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@api/render-api": "file:.api/apis/render-api",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
